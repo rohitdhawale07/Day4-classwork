@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+/* Navbar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav a:hover{
+    color: rgb(238, 157, 157);
+}
+
+/* Heroic Section styles */
+.heroic-section {
+    background-color: #0074d9;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+.heroic-section h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Card Section styles */
+.card-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.card img {
+    max-width: 150px;
+    max-height: 200px;
+}
